@@ -1,0 +1,25 @@
+{
+  "name": "amp-plugin-cc",
+  "owner": {
+    "name": "ujuc"
+  },
+  "metadata": {
+    "description": "Amp Code integration for Claude Code — multi-model review, analysis, and task delegation",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "amp-plugin-cc",
+      "source": ".",
+      "description": "Amp Code integration for Claude Code — multi-model review, analysis, and task delegation",
+      "version": "0.1.0",
+      "author": {
+        "name": "ujuc"
+      },
+      "repository": "https://github.com/ujuc/amp-plugin-cc",
+      "license": "MIT",
+      "category": "development",
+      "keywords": ["amp", "code-review", "multi-model", "analysis"]
+    }
+  ]
+}
