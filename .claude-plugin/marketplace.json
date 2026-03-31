@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "amp-plugin-cc",
-      "source": ".",
+      "source": "./",
       "description": "Amp Code integration for Claude Code — multi-model review, analysis, and task delegation",
       "version": "0.1.0",
       "author": {
