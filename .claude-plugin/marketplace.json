@@ -5,14 +5,14 @@
   },
   "metadata": {
     "description": "Amp Code integration for Claude Code — multi-model review, analysis, and task delegation",
-    "version": "0.1.0"
+    "version": "0.1.3"
   },
   "plugins": [
     {
       "name": "amp-plugin-cc",
       "source": "./",
       "description": "Amp Code integration for Claude Code — multi-model review, analysis, and task delegation",
-      "version": "0.1.0",
+      "version": "0.1.3",
       "author": {
         "name": "ujuc"
       },
