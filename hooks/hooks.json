@@ -1,0 +1,16 @@
+{
+  "hooks": [
+    {
+      "event": "SessionStart",
+      "script": "${CLAUDE_PLUGIN_ROOT}/scripts/session-lifecycle-hook.mjs start"
+    },
+    {
+      "event": "SessionEnd",
+      "script": "${CLAUDE_PLUGIN_ROOT}/scripts/session-lifecycle-hook.mjs end"
+    },
+    {
+      "event": "Stop",
+      "script": "${CLAUDE_PLUGIN_ROOT}/scripts/stop-review-gate-hook.mjs"
+    }
+  ]
+}
