@@ -10,7 +10,8 @@
     },
     "DEFAULT_MODEL_MODE": {
       "description": "Default Amp model mode: smart, free, oracle",
-      "required": false
+      "required": false,
+      "default": "free"
     },
     "REVIEW_GATE": {
       "description": "Enable review gate before session end: true/false",
