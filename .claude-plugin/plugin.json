@@ -1,0 +1,20 @@
+{
+  "name": "amp-plugin-cc",
+  "version": "0.1.0",
+  "description": "Amp Code integration for Claude Code — multi-model review, analysis, and task delegation",
+  "author": "ujuc",
+  "userConfig": {
+    "AMP_API_KEY": {
+      "description": "Amp API key (optional if logged in via amp auth login)",
+      "required": false
+    },
+    "DEFAULT_MODEL_MODE": {
+      "description": "Default Amp model mode: smart, free, oracle",
+      "required": false
+    },
+    "REVIEW_GATE": {
+      "description": "Enable review gate before session end: true/false",
+      "required": false
+    }
+  }
+}
