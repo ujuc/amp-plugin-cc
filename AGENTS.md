@@ -19,6 +19,13 @@ Claude Code plugin that integrates Amp Code for multi-model review, analysis, an
 - `agents/amp-coder.md` — Thin wrapper subagent for task delegation
 - `hooks/hooks.json` — Session lifecycle and optional review gate
 
+## Development Harness
+
+Issue-to-fix pipeline: user-reported problem → GitHub issue → fix plan → implementation → verification.
+
+- `.claude/agents/` — Pipeline agents (issue-creator, fix-planner, fix-implementer, fix-verifier)
+- `.claude/skills/issue-to-fix/` — Orchestrator skill
+
 ## Prerequisites
 
 - Amp CLI: `npm install -g @sourcegraph/amp@latest`
