@@ -7,7 +7,7 @@ Claude Code plugin that integrates [Amp Code](https://ampcode.com) for multi-mod
 - **Multi-Model Routing** — Amp automatically selects the optimal LLM per task
 - **Code Review** — Structured review with severity-ranked findings
 - **Adversarial Review** — Challenges design decisions and assumptions
-- **Oracle Analysis** — Deep analysis via GPT-5.4 Oracle mode
+- **Deep Analysis** — Deep analysis via Amp's Deep mode
 - **Task Delegation** — Delegate complex tasks to Amp's subagent system
 - **Review Gate** — Optional pre-session-end review hook
 
@@ -35,7 +35,7 @@ cp -r amp-plugin-cc ~/.claude/plugins/
 | `/amp:review` | Code review via Amp's multi-model routing |
 | `/amp:adversarial` | Adversarial review challenging design decisions |
 | `/amp:rescue` | Delegate complex tasks to Amp's subagent system |
-| `/amp:analyze` | Deep analysis via Amp's Oracle mode |
+| `/amp:analyze` | Deep analysis via Amp's Deep mode |
 | `/amp:status` | Show active Amp threads |
 | `/amp:setup` | Check installation and configure plugin |
 
@@ -46,7 +46,7 @@ Set via Claude Code plugin config:
 | Option | Description | Default |
 |--------|-------------|---------|
 | `AMP_API_KEY` | Amp API key (optional if logged in) | — |
-| `DEFAULT_MODEL_MODE` | Model mode: `smart`, `free`, `oracle` | `smart` |
+| `DEFAULT_MODEL_MODE` | Model mode: `deep`, `free`, `large`, `rush`, `smart` | `free` |
 | `REVIEW_GATE` | Enable review gate before session end | `false` |
 
 ## Quick Start

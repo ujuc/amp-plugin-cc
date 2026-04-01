@@ -9,7 +9,7 @@ Claude Code plugin that integrates Amp Code for multi-model review, analysis, an
 | `/amp:review` | Code review via Amp's multi-model routing |
 | `/amp:adversarial` | Adversarial review challenging design decisions |
 | `/amp:rescue` | Delegate complex tasks to Amp's subagent system |
-| `/amp:analyze` | Deep analysis via Amp's Oracle mode |
+| `/amp:analyze` | Deep analysis via Amp's Deep mode |
 | `/amp:status` | Show active Amp threads |
 | `/amp:setup` | Check installation and configure plugin |
 

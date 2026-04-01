@@ -31,7 +31,7 @@ amp threads continue <thread-id> -x '<prompt>'
 ## Environment Variables
 
 - `AMP_API_KEY`: API key (optional, alternative to `amp auth login`)
-- `AMP_MODEL_MODE`: Model mode (smart, free, oracle)
+- `AMP_MODEL_MODE`: Model mode (deep, free, large, rush, smart)
 
 ## Cautions
 
